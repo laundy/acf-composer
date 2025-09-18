@@ -26,7 +26,7 @@ class DummyClass extends Field
      *
      * @var int
      */
-    public $position = PHP_INT_MAX; // TODO: change to another value if you have multiple option pages.
+    public $position = PHP_INT_MAX;
 
     /**
      * The option page field group.
