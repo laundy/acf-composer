@@ -107,7 +107,7 @@ class MakeCommand extends GeneratorCommand
     public function getViewName()
     {
         return Str::finish(
-            str_replace('.', '/', Str::slug(Str::snake($this->getNameInput()))),
+            str_replace('.', '/', Str::snake($this->getNameInput())),
             '.blade.php'
         );
     }
